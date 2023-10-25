@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Genera una <br> <span>Contraseña</span></h1>
+        <div class="display">
+            <input type="text" id="password" placeholder="Contraseña">
+            <i class="fa-regular fa-copy" id="copy-btn"></i>
+        </div>
+        <div class="slide-container">
+            <p>Número de caracteres</p>
+            <input type="range" min="4" max="20" value="12" class="slider" id="myRange" step=".1"/>
+            <p id="value"></p>
+          </div>
+        <button id="generate-btn"><i class="fa-solid fa-bolt"></i> Generar Contraseña</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
